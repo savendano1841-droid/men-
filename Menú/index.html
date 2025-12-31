@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Web Sencilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LOGIN -->
+    <div class="login" id="login">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" placeholder="Usuario">
+        <input type="password" placeholder="Contraseña">
+        <button onclick="iniciarSesion()">Entrar</button>
+    </div>
+
+    <!-- MENÚ -->
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="contenido" id="contenido">
+        <h1>BIENVENIDOS</h1>
+        <p>A mi página web </p>
+    </div>
+
+    <script>
+        function iniciarSesion() {
+            document.getElementById("login").style.display = "none";
+            document.getElementById("menu").style.display = "block";
+            document.getElementById("contenido").style.display = "flex";
+        }
+    </script>
+
+</body>
+</html>

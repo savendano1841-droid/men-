@@ -1,0 +1,114 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+
+    background-image: url("4bd0d96d6caf3944f7d8d81f789844af.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* LOGIN */
+.login {
+    width: 360px;
+    margin: 150px auto;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 35px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* TÍTULOS GRANDES Y MORADOS */
+.login h2 {
+    font-size: 34px;
+    color: #6a0572; /* morado fuerte */
+    margin-bottom: 10px;
+}
+
+.login h1 {
+    font-size: 44px;
+    color: #6a0572; /* morado fuerte */
+    margin-bottom: 25px;
+}
+
+/* INPUTS ROSA TRANSPARENTE */
+.login input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    font-size: 18px;
+
+    background: rgba(255, 182, 193, 0.5); /* rosa bajito */
+    border: 2px solid #d63384;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* TEXTO DEL INPUT */
+.login input::placeholder {
+    color: #6a0572;
+}
+
+/* BOTÓN */
+.login button {
+    font-size: 20px;
+    padding: 12px 30px;
+    background-color: #6a0572;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* MENÚ */
+.menu {
+    display: none;
+    background-color: #6a0572;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CONTENIDO CENTRADO */
+.contenido {
+    display: none;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* TEXTO GRANDE CENTRADO */
+.contenido h1 {
+    font-size: 72px;
+    color: #6a0572;
+    margin: 0;
+}
+
+.contenido p {
+    font-size: 34px;
+    color: #6a0572;
+}
+
